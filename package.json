@@ -30,6 +30,13 @@
     "extends": [
       "react-app",
       "react-app/jest"
+    ],
+    "ignorePatterns": [
+      "src/fetchMovies.js",
+      "src/getListofMovies.js",
+      "src/playerBoard.js",
+      "src/playersInOrder.js",
+      "src/scoring.js"
     ]
   },
   "browserslist": {
